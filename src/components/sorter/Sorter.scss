@@ -1,0 +1,19 @@
+.sorter {
+  width: 100%;
+  .row {
+    display: flex;
+    justify-content: flex-end;
+    .search-row {
+      @media screen and (max-width: 991px) {
+        margin-bottom: 10px;
+      }
+    }
+    .filter-btn {
+      display: none;
+      @media screen and (max-width: 991px) {
+        display: block;
+        margin-left: auto;
+      }
+    }
+  }
+}

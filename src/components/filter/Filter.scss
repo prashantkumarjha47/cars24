@@ -1,0 +1,24 @@
+.filters {
+  position: relative;
+  .form-group {
+    margin-bottom: 4rem;
+  }
+  @media screen and (max-width: 991px) {
+    padding-top: 40px;
+  }
+  .close-btn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    display: none;
+    @media screen and (max-width: 991px) {
+      display: block;
+    }
+  }
+  .submit-row {
+    text-align: right;
+  }
+}

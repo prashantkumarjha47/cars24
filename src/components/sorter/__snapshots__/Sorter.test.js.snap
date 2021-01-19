@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filter component loaded 1`] = `
+<div
+  className="sorter"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="search-row col-12 col-sm-12 col-md-12 col-lg-4"
+      >
+        <input
+          className="form-control"
+          onChange={[Function]}
+          placeholder="Search"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="col-7 col-sm-8 col-md-8 col-lg-4"
+      >
+        <select
+          className="form-control"
+          onChange={[Function]}
+          placeholder="Filter by price"
+          value=""
+        >
+          <option
+            value="ASC"
+          >
+            Low to High
+          </option>
+          <option
+            value="DESC"
+          >
+            High to Low
+          </option>
+        </select>
+      </div>
+      <div
+        className="filter-btn col-auto"
+      >
+        <button
+          aria-label={null}
+          className="btn btn-info"
+          onClick={[Function]}
+          type="button"
+        >
+          Filter
+        </button>
+         
+      </div>
+    </div>
+  </div>
+</div>
+`;
